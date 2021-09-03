@@ -11,12 +11,12 @@
     position: relative;
     font-size: $default-font-size;
 
-    // Change for the <button> element 
-    border:none;
-    cursor:pointer;
+    // Change for the <button> element
+    border: none;
+    cursor: pointer;
   }
 
-  &:hover{
+  &:hover {
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
     /* (X, Y, Blur, color */
@@ -27,7 +27,7 @@
   }
 
   &:active,
-  &:focus  {
+  &:focus {
     outline: none;
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
